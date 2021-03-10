@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedi Bulmaca</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script> 
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="heading">Kedi Bulmaca</h1>
+        <h4>Bu oyunda 3 kapalı kart içindeki kediyi bulman gerekmektedir. İlk tercihte Kedi kartını bulamaz isen 2. seçim hakkı tanınacaktır.</h4>
+
+        <div class="main-content" id="findCatDivId">            
+            
+            <div class="images">
+                <img id="img0" class="card" src="img0.PNG" onclick="newImage1()">
+                <img id="img1" class="card" src="img0.PNG" onclick="newImage2()">
+                <img id="img2" class="card" src="img0.PNG" onclick="newImage3()"> 
+            </div>
+
+            <div class="message">
+                <p id="areaId">Kedi kartını bulmak için kartın üzerinde tıklamalısın!</p>
+                <p id="winnerId" style="display:none"></p>
+                <p id="defeatId" style="display:none"></p>
+            </div>
+        </div>        
+    </div>
+</body>
+</html>
